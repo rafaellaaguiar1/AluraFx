@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+ * {
+    text-decoration: none;
+    list-style: none;
+ }
+
+body {
+    background: lightsteelblue;
+}
+
+nav {
+    font-size: 2em;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0 1em;
+}
+
+nav h1 {
+    margin-left: 2em;
+}
+
+nav img {
+    height: 3em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 2em;
+}
+
+.faixas {
+    display: flex;
+    justify-content: center;
+}
+
+.faixas ul {
+    display: flex;
+}
+
+.faixas li {
+    border: 0.5em solid lightcoral;
+    border-radius: 1em;
+}
+
+.faixas-seguintes {
+    text-align: center;
+}
+
+.lista-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lista-1 li {
+    padding: .25em;
+}
+
+section {
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 1em;
+    padding-bottom: 1em;
+}
+
+section ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+section h2 {
+    padding-top: 0.5em;
+
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    opacity: 0.5;
+}
+
+ul li:hover {
+    opacity: 1;
+}
